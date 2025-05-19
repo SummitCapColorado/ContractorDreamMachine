@@ -172,3 +172,41 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+# ---- PYTHON ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# virtual-env folders
+venv/
+env/
+.venv/
+
+# tooling caches & IDE folders
+.coverage
+.mypy_cache/
+.pytest_cache/
+.idea/
+.vscode/
+
+# ---- SECRETS / CONFIG ----
+# keep only a redacted example in source control
+config.yaml
+*.env
+.env.*
+
+# ---- GENERATED ASSETS ----
+# PDFs created locally; Zapier/GitHub Actions will commit its own
+*.pdf
+
+# JSON Zap exports generated locally
+*.zap
+
+# ---- OS JUNK ----
+.DS_Store
+Thumbs.db
