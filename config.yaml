@@ -1,0 +1,8 @@
+openai:
+  OPENAI_API_KEY: YOUR_OPENAI_KEY_HERE
+gumroad:
+  PRODUCT_ID: YOUR_PRODUCT_ID
+  ACCESS_TOKEN: YOUR_GUMROAD_ACCESS_TOKEN
+repo:
+  branch: main
+  file_path: daily_product.pdf
